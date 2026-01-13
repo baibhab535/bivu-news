@@ -1,0 +1,33 @@
+<h2>📰 BIVU News</h2>
+<p class="privacy">🔒 No data stored. Everything runs on your device.</p>
+
+<select id="language">
+  <option value="en-IN">English</option>
+  <option value="hi-IN">Hindi</option>
+  <option value="bn-IN">Bengali</option>
+</select>
+
+<select id="category">
+  <option value="general">General</option>
+  <option value="technology">Technology</option>
+  <option value="sports">Sports</option>
+  <option value="education">Education</option>
+</select>
+
+<select id="speed">
+  <option value="0.85">Slow</option>
+  <option value="1" selected>Normal</option>
+  <option value="1.15">Fast</option>
+</select>
+
+<label>
+  <input type="checkbox" id="studentMode">
+  🎓 Student Mode
+</label>
+
+<div class="buttons">
+  <button onclick="todayBrief()">🗞 Today’s Brief</button>
+  <button onclick="pauseNews()">⏸ Pause</button>
+  <button onclick="resumeNews()">⏯ Resume</button>
+  <button onclick="toggleTheme()">🌙 / ☀️</button>
+</div>
